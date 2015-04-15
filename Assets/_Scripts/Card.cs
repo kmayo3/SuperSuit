@@ -53,13 +53,14 @@ public class Card : MonoBehaviour
     //public Texture2D tenOfDiamond;
 
     public static float bottomY = -20f;
-    public HealthBar healthBar;
+    //public HealthBar healthBar;
     void Update()
     {
         if (transform.position.y < bottomY)
         {
             Destroy(this.gameObject);
-            healthBar.LoseOne();
+            //healthBar.LoseOne();
+            //healthBar.AddOne();
         }
     }
 

@@ -17,23 +17,23 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
-        if (healthBarAmount == 0)
-        {
-            Application.Quit();
-        }
+        //if (healthBarAmount == 0)
+        //{
+        //    Application.LoadLevel("_GameOver");
+        //}
     }
 
     public void LoseOne()
     {
         healthBarAmount = healthBarAmount - 1;
-        pos.x = healthBarInitialLocation - healthBarAmount * 3.63f;
-        healthBarImage.transform.localPosition = pos;
+        pos.x = healthBarInitialLocation - healthBarAmount;
+        //healthBarImage.transform.localPosition = pos;
     }
 
-    void AddOne()
+    public void AddOne()
     {
         healthBarAmount = healthBarAmount + 1;
-        pos.x = healthBarInitialLocation + healthBarAmount * 3.63f;
-        healthBarImage.transform.localPosition = pos;
+        pos.x = healthBarInitialLocation + healthBarAmount;
+        //healthBarImage.transform.localPosition = pos;
     }
 }

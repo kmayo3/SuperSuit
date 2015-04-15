@@ -57,6 +57,7 @@
      <Compile Include="Assets\_Scripts\HealthBar.cs" />
      <Compile Include="Assets\_Scripts\HeartRack.cs" />
      <Compile Include="Assets\_Scripts\MainMenuScript.cs" />
+     <Compile Include="Assets\_Scripts\Score.cs" />
      <Compile Include="Assets\_Scripts\SpadeRack.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

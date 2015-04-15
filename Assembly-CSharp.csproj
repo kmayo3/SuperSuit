@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\BackButton.cs" />
      <Compile Include="Assets\_Scripts\Card.cs" />
-     <Compile Include="Assets\_Scripts\CardRack.cs" />
      <Compile Include="Assets\_Scripts\ClubRack.cs" />
      <Compile Include="Assets\_Scripts\ClubScript.cs" />
      <Compile Include="Assets\_Scripts\Deck.cs" />
